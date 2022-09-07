@@ -1,69 +1,32 @@
-// let playerName = "Masrafi";
-// let age = 35;
+// let a;
+let a: any;
 
-// console.log(playerName);
+a = 5;
+a = "Biddut";
 
-// playerName = 34;
-// age = 34;
-// age = "Sakib";
-// console.log(playerName);
+console.log(a);
 
-
-// let playerName;
-
-// console.log(playerName);
-
-// playerName = "Sakib";
-
-// console.log(playerName);
-
-// playerName = 34;
-
-
-// console.log(playerName);
-
-function multiply(a: number, b: number){
-    return a*b;
-}
-
-console.log(multiply(3, 4));
 
 // array
+let b: any[] = [];
 
-// let fruits = ['apple', 'banan', 'mango'];
+b.push("Bangladesh");
+b.push(34);
 
-// fruits.push(34);
-// fruits.push('orange');
+console.log(b);
 
-let fruits = [];
 
-fruits.push(34);
-fruits.push('orange');
-
-// let mixed = ['apple', 34, true];
-
-// mixed.push(34);
-// mixed.push('orange');
-// mixed.push({
-//     name: "sakib",
-// });
-
-let mixed = ['apple', 34, true, {}];
-
-mixed.push(34);
-mixed.push('orange');
-mixed.push({
-    name: "sakib",
-});
 
 // object
- let person = {
-    name: "Masrafi",
-    age: 34,
-    isCaptain: true,
- }
+let c: {
+  name: any;
+  age: any;
+};
 
- person.name = "Sakib";
-//  person.name = 34;
- person.age = 34;
- person.country = "Bangladesh";
+c = {
+  name: "Bangladesh",
+  age: 45,
+};
+
+console.log(c);
+
