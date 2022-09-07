@@ -1,18 +1,23 @@
 "use strict";
-// let a;
-let a;
-a = 5;
-a = "Biddut";
-console.log(a);
-// array
-let b = [];
-b.push("Bangladesh");
-b.push(34);
-console.log(b);
-// object
-let c;
-c = {
-    name: "Bangladesh",
-    age: 45,
+// const myFunc = () => {
+//     console.log("Hello World!");
+// }
+// let myFunc: Function;
+// myFunc = () => {
+//     console.log("Hello World!");
+// }
+// myFunc = 5;
+// const myFunc = (a: string, b: string, c?: string) => {
+//     console.log(`Hello ${a} ${b}`);
+// }
+// const myFunc = (a: string, b: string, c: string = "true") => {
+//   console.log(`Hello ${a} ${b}`);
+// };
+// const myFunc = (a: string, b: string, c: string = "true") => {
+//   return a + b;
+// };
+// myFunc("A", "B");
+const myFunc = (a, b, c = "true") => {
+    return a + b;
 };
-console.log(c);
+myFunc(3, 4);

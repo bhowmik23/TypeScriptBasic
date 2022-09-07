@@ -1,32 +1,32 @@
-// let a;
-let a: any;
+// const myFunc = () => {
+//     console.log("Hello World!");
+// }
 
-a = 5;
-a = "Biddut";
+// let myFunc: Function;
 
-console.log(a);
+// myFunc = () => {
+//     console.log("Hello World!");
+// }
+
+// myFunc = 5;
+
+// const myFunc = (a: string, b: string, c?: string) => {
+//     console.log(`Hello ${a} ${b}`);
+// }
+
+// const myFunc = (a: string, b: string, c: string = "true") => {
+//   console.log(`Hello ${a} ${b}`);
+// };
+
+// const myFunc = (a: string, b: string, c: string = "true") => {
+//   return a + b;
+// };
+
+// myFunc("A", "B");
 
 
-// array
-let b: any[] = [];
-
-b.push("Bangladesh");
-b.push(34);
-
-console.log(b);
-
-
-
-// object
-let c: {
-  name: any;
-  age: any;
+const myFunc = (a: number, b: number, c: string = "true") : number => {
+  return a + b;
 };
 
-c = {
-  name: "Bangladesh",
-  age: 45,
-};
-
-console.log(c);
-
+myFunc(3, 4);
